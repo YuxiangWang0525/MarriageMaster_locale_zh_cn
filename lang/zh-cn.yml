@@ -6,9 +6,9 @@ Language:
     NoPermission: "&c抱歉,您没有权限"
     NaN: "&c输入的内容不是数字"
     NotMarried: "&您没有结婚"
-    PartnerOffline: "&c您的婚姻对象不在线"
-    PartnerNotInRange: "&c您的婚姻对象离您太远了!!!"
-    TargetPartnerNotFound: "&c您指定的婚姻对象不存在!"
+    PartnerOffline: "&c您的配偶不在线"
+    PartnerNotInRange: "&c您的配偶离您太远了!!!"
+    TargetPartnerNotFound: "&c您指定的配偶不存在!"
     PlayerNotMarried: "&c\"{PlayerName}\" 并没有结婚!"
     PlayerNotFound: "&c无法找到玩家: \"{PlayerName}\"!"
     PlayerNotOnline: "&c\"{PlayerName}\" 已离线!"
@@ -16,39 +16,39 @@ Language:
     MarriageNotExact: "&c对不起,您的结婚要求不准确,有不仅一个婚姻符合您的要求。"
     JoinLeaveInfo:
       # Only used for players with 1 partner
-      PartnerOnline: "&a您的婚姻对象已离线。"
+      PartnerOnline: "&a您的配偶已离线。"
       # Only used for players with 1 partner
-      PartnerOffline: "&7您的婚姻对象已离线。"
+      PartnerOffline: "&7您的配偶已离线。"
       # Only used for players with more than 1 partner
-      AllPartnersOffline: "&7您的所有婚姻对象均已离线。"
+      AllPartnersOffline: "&7您的所有配偶均已离线。"
       # Only used for players with more than 1 partner
-      PartnerOnlineMulti: "&下列为目前您的在线的婚姻对象列表: &r&f{OnlinePartners}"
+      PartnerOnlineMulti: "&下列为目前您的在线的配偶列表: &r&f{OnlinePartners}"
       # Placeholders: {Name}, {DisplayName}.    Keep in mind display names can contain colors!  No JSON!!!
       MultiOnlineFormat: "{DisplayName}"
       # No JSON!!!
       MultiOnlineSeparator: "&r, "
       # Placeholders: {Name}, {DisplayName}
-      PartnerNowOnline: "&a您的婚姻对象现在上线了"
+      PartnerNowOnline: "&a您的配偶现在上线了"
       # Placeholders: {Name}, {DisplayName}
-      PartnerNowOffline: "&7您的婚姻对象下线了"
+      PartnerNowOffline: "&7您的配偶下线了"
     Backpack:
-      OnlyInSurvival: "&c您只能在生存模式下访问您婚姻对象的背包。"
-      ShareOn: "&a您现在正在和您的婚姻对象分享背包"
+      OnlyInSurvival: "&c您只能在生存模式下访问您配偶的背包。"
+      ShareOn: "&a您现在正在和您的配偶分享背包"
       ShareOff: "&c分享背包已经结束"
-      Opened: "&a您的婚姻对象打开了您的背包"
-      ShareDenied: "&c您的婚姻对象不给您看ta的背包"
+      Opened: "&a您的配偶打开了您的背包"
+      ShareDenied: "&c您的配偶不给您看ta的背包"
     Chat:
       Joined: "&a您已设置聊天频道为婚姻关系聊天频道"
       Left: "&a您已回到公共聊天频道."
       ListeningStarted: "&a您正在收听婚姻关系频道的语音讲话"
       ListeningStopped: "&a您已不再收听婚姻关系频道的语音讲话"
       TargetSet: "&a已设置私密聊天标签"
-      DisplayNameAll: "所有婚姻对象"
+      DisplayNameAll: "所有配偶"
       # Placeholders: {SenderDisplayName}, {SenderName}, {ReceiverDisplayName}, {ReceiverName}, {Message}, {MagicHeart}
       Format: "{MagicHeart}&r {SenderDisplayName}&r&6 => &r{ReceiverDisplayName}&r&f: &r{Message}"
     Gift:
       # Placeholders: {AllowedGameModes}, {CurrentGameMode}
-      GameModeNotAllowedSender: "&cYou are not allowed to send gifts in your current game mode."
+      GameModeNotAllowedSender: "&c您不能在当前游戏模式下发送礼物。"
       # Placeholders: {AllowedGameModes}, {CurrentGameMode}
       GameModeNotAllowedReceiver: "&cYour partner can not receive gifts in their current game mode."
       NoItemInHand: "&cYou are not holding an item."
